@@ -11,7 +11,7 @@ $(document).ready(function () {
     $("#show").click(function () {
         let mynumber = document.getElementById("myNumber").value;
         $("#main").empty();
-        $("#main").append(`<img src="https://http.cat/${mynumber}.jpg" class="img-fluid" id="kitty"/>`);
+        $("#main").append(`<img src="https://http.cat/${mynumber}.jpg" class="img-fluid" id="kitty" />`);
 
 
 
