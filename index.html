@@ -18,23 +18,32 @@
 <body>
 
     <header class="jumbotron container">
-        <h1><i class="fas fa-cat invert"></i> Random Picture Of Cats <i class="fas fa-cat"></i></h1>
+        <h1><i class="fas fa-cat invert"></i> Random Pictures Of Cats <i class="fas fa-cat"></i></h1>
     </header>
     <div class="container">
         <div class="row">
             <div class="input-group mb-3 col-xs-12 col-md-8 offset-md-2">
                 <input id="myNumber" type="number" class="form-control" placeholder="Your random number, please">
-                <!-- aria-label="Recipient's username" aria-describedby="basic-addon2"> -->
                 <div class="input-group-append">
                     <!-- <a class="input-group-text" id="basic-addon2" href="/link/to/page2">GO!</a> -->
-                    <a class="input-group-text" id="basic-addon2" onclick="clicking()"><i class="fas fa-paw"></i></a>
+                    <a class="input-group-text" id="basic-addon2"><i class="fas fa-paw"></i></a>
+                    <!-- <a id="show" class="input-group-text" id="basic-addon2" onclick="clicking()"><i
+                             class="fas fa-paw"></i></a> -->
+                </div>
+            </div>
+
+            <div class="container container-fluid">
+                <div class="row">
+                    <div class="mb-3 col-xs-12 col-md-8 offset-md-2" id="main"></div>
                 </div>
             </div>
         </div>
+
+    </div>
     </div>
     <!-- Link to the jQuery library. Required by bootstrap -->
     <!-- JQuery -->
-    <script type=" text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+    <script type=" text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js">
                     </script>
     <!-- Bootstrap tooltips -->
     <script type="text/javascript"
